@@ -1,7 +1,7 @@
 {
     "manifest_version":2,
     "name":"Namer",
-    "description":"Basic extension",
+    "description":"It displays Name on Extension's UI itself",
     "version":"1.0.0",
     "icons":{"50":"icons8-ios-photos-50.png",
             "100":"icons8-ios-photos-100.png"

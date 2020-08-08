@@ -5,8 +5,10 @@ $(document).ready(function(){
            var text = $('#nameField').val(); 
             $('#nameTag').append("Hello ",text);
             }
-        else
+        else{
         alert("Enter valid text");
+        location.reload();
+        }
         $('#Container').empty().html($('#nameDisplay').html());
     })
 })
