@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name":"Namer",
+    "description":"Basic extension",
+    "version":"1.0.0",
+    "icons":{"50":"icons8-ios-photos-50.png",
+            "100":"icons8-ios-photos-100.png"
+    },
+    "browser_action": { 
+        "default_icon":"icons8-ios-photos-100.png",
+        "default_popup":"popup.html" 
+ },
+    "permissions":["activeTab"]
+    
+
+
+}
