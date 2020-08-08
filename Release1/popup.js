@@ -1,9 +1,12 @@
-var name = "";
-var click =document.getElementById('enter');
-getElementById('nameField').oninput = function(){this.name};
-click.onclick = function (){
-    document.getElementById('Container').style.display='none';
-    document.getElementById('nameDisplay').style.display='block';
-    document.getElementById('nameDisplay').appendChild= $name;
-
-}
+$(document).ready(function(){
+    $('#enter').click(function(){
+        if ($('#nameField').val() !=0)
+        {
+           var text = $('#nameField').val(); 
+            $('#nameTag').append("Hello ",text);
+            }
+        else
+        alert("Enter valid text");
+        $('#Container').empty().html($('#nameDisplay').html());
+    })
+})
