@@ -1,0 +1,15 @@
+{
+"manifest_version":2,
+"name":"CoronaVirus Tracker",
+"description":"Daily tracker for COVID19 patients worldwide",
+"version":"1.0.0",
+"icons":{ "96":"icons8-coronavirus-96.png",
+          "50":"icons8-coronavirus-50.png"
+},
+
+"browser_action": { 
+    "default_icon":"icons8-coronavirus-50.png",
+    "default_popup":"popup.html" 
+},
+"permissions":["activeTab","storage"]   
+}
