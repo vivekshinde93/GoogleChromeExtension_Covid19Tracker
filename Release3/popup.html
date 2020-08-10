@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Covid19 Tracker</title>
+    <style>
+        img
+        {
+            vertical-align: middle;
+        }
+        span
+        {
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: larger;
+            font-weight: 300;
+            vertical-align: middle;
+        } 
+    </style>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div id="Container" style="text-align: center;">
+        <img src="./icons8-coronavirus-96.png"><span><strong>Coronovirus Global Tracker Site</strong></span>
+        <div id="country">
+            <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" >Enter country</label><input id="countryName" minlength="4" autocomplete="country" type="text">
+        </div>
+    <div class="results"></div>
+    </div>
+</body>
+</html>
