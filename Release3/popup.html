@@ -4,28 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Covid19 Tracker</title>
-    <style>
-        img
-        {
-            vertical-align: middle;
-        }
-        span
-        {
-           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: larger;
-            font-weight: 300;
-            vertical-align: middle;
-        } 
-    </style>
+    <link rel="stylesheet" href="popup.css">
+
     <script src="popup.js"></script>
+    <script src="./jquery-3.5.1.slim.min.js"></script>
 </head>
 <body>
-    <div id="Container" style="text-align: center;">
-        <img src="./icons8-coronavirus-96.png"><span><strong>Coronovirus Global Tracker Site</strong></span>
-        <div id="country">
-            <label style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" >Enter country</label><input id="countryName" minlength="4" autocomplete="country" type="text">
-        </div>
-    <div class="results"></div>
+    <div id="Container">
+        <img src="./icons8-coronavirus-96.png">
+        <input id="countryName" type="search" maxlength="2" placeholder="Select your Country Code">
+        <div class="searchbtn"><img src="search.png" style="margin: 50%;" class="search"></div>
+    </div>
+        <div class="results" style="display: none;">
+    <table class="data">
+        <th>
+            <tr>Country code</tr>
+            <tr>Total Active Cases</tr>
+            <tr>Total Cases</tr>
+         <tr>Danger Rank</tr>
+         <tr>Deaths</tr>
+         <tr>New Cases Today</tr>
+         <tr>New Deaths Today</tr>
+         <tr>Recovered</tr>
+         <tr>Serious Cases</tr>
+         <tr>Unresolved</tr>
+        </th>
+        <th>
+            <tr class="data0"></tr>
+            <tr class="data1"></tr>
+            <tr class="data2"></tr>
+            <tr class="data3"></tr>
+            <tr class="data4"></tr>
+            <tr class="data5"></tr>
+            <tr class="data6"></tr>
+            <tr class="data7"></tr>
+            <tr class="data8"></tr>
+            <tr class="data9"></tr>
+        </th>
+    </table>
+
+    
     </div>
 </body>
 </html>
