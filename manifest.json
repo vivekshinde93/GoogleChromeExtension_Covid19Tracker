@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+  "name": "extension page",
+  "version": "0.1",
+  "description":"this is about newtab page ",
+  "icons":{"40":"icons8-man-laptop-pencil-50.png","120":"icons8-laptop-settings-64.png"},
+  "browser_action":{
+    "default_icon":"icons8-laptop-settings-64.png"
+  },
+  "permissions":["activetb"],
+  "chrome_url_overrides":{
+      "newtab":"index.html"
+  }
+}
