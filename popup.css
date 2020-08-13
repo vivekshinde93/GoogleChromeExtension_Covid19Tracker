@@ -1,0 +1,73 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">');
+
+* {
+    font-family: "Lora", serif;
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#Container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background: rgba(218, 116, 124, 0.425);
+    max-width: 550px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+#countryName {
+    width: 100%;
+    padding: 10px 10px;
+    border: black thin;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.searchbtn,
+.search {
+    width: 30%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.data {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.data,
+.data tr,
+.data th,
+.dada td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #c4c4c4;
+}
+
+.data {
+    position: absolute;
+    z-index: 11;
+    margin-top: 1rem;
+    top: 1rem;
+    width: 40rem;
+    height: 60vh;
+}

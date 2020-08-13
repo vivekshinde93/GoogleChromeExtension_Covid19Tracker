@@ -1,14 +1,23 @@
 {
-    "manifest_version": 2,
-  "name": "extension page",
-  "version": "0.1",
-  "description":"this is about newtab page ",
-  "icons":{"40":"icons8-man-laptop-pencil-50.png","120":"icons8-laptop-settings-64.png"},
-  "browser_action":{
-    "default_icon":"icons8-laptop-settings-64.png"
-  },
-  "permissions":["activetb"],
-  "chrome_url_overrides":{
-      "newtab":"index.html"
-  }
+"manifest_version":2,
+"name":"CoronaVirus Tracker",
+"description":"Daily tracker for COVID19 patients worldwide",
+"version":"1.0.0",
+"icons":{ "96":"icons8-coronavirus-96.png",
+          "50":"icons8-coronavirus-50.png"
+},
+
+"chrome_url_overrides":{
+    "newtab":"popup.html"
+},
+"background":{
+    "scripts":["background.js"],
+    "persistent":false
+},
+"browser_action": { 
+    "default_icon":"icons8-coronavirus-50.png"
+},
+
+"permissions":["tabs"]   
+
 }
