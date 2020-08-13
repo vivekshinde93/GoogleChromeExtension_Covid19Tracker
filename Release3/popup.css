@@ -56,3 +56,30 @@ img
     vertical-align: middle;
     
 }
+.data {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: x-large;
+}
+
+.data,
+.data tr,
+.data th,
+.dada td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #c4c4c4;
+}
+
+.data {
+    position: absolute;
+    z-index: 11;
+    margin-top: 1rem;
+    top: 1rem;
+    width: 40rem;
+    height: 60vh;
+}
