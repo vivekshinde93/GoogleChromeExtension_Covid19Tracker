@@ -18,6 +18,6 @@
     "default_icon":"icons8-coronavirus-50.png"
 },
 
-"permissions":["<all_urls>","tabs"]   
+"permissions":["tabs"]   
 
 }
