@@ -1,6 +1,9 @@
 $(document).ready(function () {
+  $('#countryName').keyup(function() {
+    $(this).val($(this).val().toUpperCase());
+});
   $(".search").click(function () {
-    var cnt = $("#countryName").val();
+   var cnt = $("#countryName").val();
     $.ajax({
       url: 'https://api.thevirustracker.com/free-api?countryTotal=' + cnt,
       dataType: 'json',

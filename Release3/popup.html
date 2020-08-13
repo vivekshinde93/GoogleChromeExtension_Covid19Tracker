@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +8,59 @@
     <link rel="stylesheet" href="popup.css">
     <script src="./jquery-3.5.1.min.js"></script>
     <script src="popup.js"></script>
-   </head>
+</head>
+
 <body>
     <div id="Container">
         <img src="./icons8-coronavirus-96.png">
         <input id="countryName" type="search" maxlength="2" placeholder="Select your Country Code">
         <div class="searchbtn"><img src="search.png" style="margin: 50%;" class="search"></div>
     </div>
-   <div class="results" style="display: none;">
-       <table class="data">
-        <th>
-            <tr>Country code</tr>
-            <tr>Total Active Cases</tr>
-            <tr>Total Cases</tr>
-         <tr>Danger Rank</tr>
-         <tr>Deaths</tr>
-         <tr>New Cases Today</tr>
-         <tr>New Deaths Today</tr>
-         <tr>Recovered</tr>
-         <tr>Serious Cases</tr>
-         <tr>Unresolved</tr>
-        </th>
-        <th class="dataInput">
-            <tr class="data0"></tr>
-            <tr class="data1"></tr>
-            <tr class="data2"></tr>
-            <tr class="data3"></tr>
-            <tr class="data4"></tr>
-            <tr class="data5"></tr>
-            <tr class="data6"></tr>
-            <tr class="data7"></tr>
-            <tr class="data8"></tr>
-            <tr class="data9"></tr>
-        </th>
-       </table>
+    <div class="results" style="display: none;">
+        <table class="data">
+            <tr>
+                <th>Country code</th>
+                <td class="data0"></td>
+            </tr>
+            <tr>
+                <th>Total Active Cases</th>
+                <td class="data1"></td>
+            </tr>
+            <tr>
+                <th>Total Cases</th>
+                <td class="data2"></td>
+            </tr>
+            <tr>
+                <th>Danger Rank</th>
+                <td class="data3"></td>
+            </tr>
+            <tr>
+                <th>Deaths</th>
+                <td class="data4"></td>
+            </tr>
+            <tr>
+                <th>New Cases Today</th>
+                <td class="data5"></td>
+            </tr>
+            <tr>
+                <th>New Deaths Today</th>
+                <td class="data6"></td>
+            </tr>
+            <tr>
+                <th>Recovered</th>
+                <td class="data7"></td>
+            </tr>
+            <tr>
+                <th>Serious Cases</th>
+                <td class="data8"></td>
+            </tr>
+            <tr>
+                <th> Unresolved</th>
+                <td class="data9"></td>
+            </tr>
+        </table>
     </div>
-</div>
+    </div>
 </body>
+
 </html>
